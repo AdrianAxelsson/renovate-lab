@@ -6,7 +6,12 @@
   "labels": ["renovate"],
   "packageRules": [
     {
-      "matchPackagePatterns": ["^azurerm"]
+      "matchPackagePatterns": ["^azurerm"],
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "groupName": "azurerm major",
+      "groupSlug": "azurerm-major"
     }
   ]
 }
