@@ -1,17 +1,21 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    ":dependencyDashboard",
-    "group:allNonMajor"
+    ":dependencyDashboard"
   ],
   "separateMultipleMajor": true,
   "separateMajorMinor": true,
   "labels": ["renovate"],
   "packageRules": [
     {
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-      "labels": ["test"],
-      "automerge": true
+      "matchPackagePatterns": [
+        "^azurerm"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "groupName": "azurerm non-major dependencies"
     }
   ]
 }
