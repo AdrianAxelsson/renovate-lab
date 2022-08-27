@@ -8,14 +8,13 @@
   "labels": ["renovate"],
   "packageRules": [
     {
-      "matchPackagePatterns": [
-        "^azurerm"
-      ],
+      "matchPackageNames": ["azurerm"],
+      "matchCurrentVersion": "3.*",
       "matchUpdateTypes": [
         "minor",
         "patch"
       ],
-      "groupName": "azurerm non-major dependencies"
+      "groupName": "azurerm 3.x minor dependencies"
     }
   ]
 }
