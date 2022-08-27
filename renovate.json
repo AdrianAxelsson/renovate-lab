@@ -13,7 +13,8 @@
       "matchUpdateTypes": [
         "minor",
         "patch"
-      ]
+      ],
+      "groupName": "azurerm 3.x non-major"
     },
     {
       "matchPackagePatterns": ["^azurerm"],
@@ -21,7 +22,8 @@
       "matchUpdateTypes": [
         "minor",
         "patch"
-      ]
+      ],
+      "groupName": "azurerm 2.x non-major"
     }
   ]
 }
