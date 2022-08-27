@@ -13,8 +13,15 @@
       "matchUpdateTypes": [
         "minor",
         "patch"
-      ],
-      "groupName": "azurerm 3.x minor dependencies"
+      ]
+    },
+    {
+      "matchPackagePatterns": ["^azurerm"],
+      "matchCurrentVersion": "^2",
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ]
     }
   ]
 }
