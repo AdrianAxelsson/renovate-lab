@@ -13,6 +13,10 @@
       "addLabels": ["major"],
       "groupName": "azurerm major",
       "groupSlug": "azurerm-major"
+    },
+    {
+      "matchPackageNames": ["postgresql"],
+      "enabled": false
     }
   ]
 }
