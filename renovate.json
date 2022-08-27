@@ -8,8 +8,8 @@
   "labels": ["renovate"],
   "packageRules": [
     {
-      "matchPackageNames": ["azurerm"],
-      "matchCurrentVersion": "3.*",
+      "matchPackagePatterns": ["^azurerm"],
+      "matchCurrentVersion": "^3",
       "matchUpdateTypes": [
         "minor",
         "patch"
