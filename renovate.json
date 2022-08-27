@@ -7,10 +7,7 @@
   "packageRules": [
     {
       "matchPackagePatterns": ["^azurerm"],
-      "matchUpdateTypes": [
-        "major"
-      ],
-      "groupName": "azurerm major"
+      "allowedVersions": "<3.10"
     }
   ]
 }
