@@ -3,6 +3,7 @@
   "extends": ["config:base"],
   "separateMultipleMajor": false,
   "separateMajorMinor": true,
+  "labels": ["renovate"],
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
