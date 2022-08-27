@@ -9,21 +9,10 @@
   "packageRules": [
     {
       "matchPackagePatterns": ["^azurerm"],
-      "matchCurrentVersion": "^3",
       "matchUpdateTypes": [
-        "minor",
-        "patch"
+        "major"
       ],
-      "groupName": "azurerm 3.x non-major"
-    },
-    {
-      "matchPackagePatterns": ["^azurerm"],
-      "matchCurrentVersion": "^2",
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
-      "groupName": "azurerm 2.x non-major"
+      "groupName": "azurerm major"
     }
   ]
 }
