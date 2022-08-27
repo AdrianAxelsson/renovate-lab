@@ -10,7 +10,7 @@
       "matchUpdateTypes": [
         "major"
       ],
-      "groupName": "major"
+      "groupName": "azurerm major"
     }
   ]
 }
