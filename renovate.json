@@ -9,7 +9,6 @@
   "packageRules": [
     {
       "matchPackagePatterns": ["^azurerm"],
-      "matchCurrentVersion": "^3",
       "matchUpdateTypes": [
         "minor",
         "patch"
