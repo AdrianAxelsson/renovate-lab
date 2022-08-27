@@ -9,7 +9,8 @@
       "matchPackagePatterns": ["^azurerm"],
       "matchUpdateTypes": [
         "major"
-      ]
+      ],
+      "groupName": "major"
     }
   ]
 }
