@@ -6,6 +6,7 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "labels": ["test"],
       "automerge": true
     }
   ]
