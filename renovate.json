@@ -10,8 +10,10 @@
       "matchUpdateTypes": [
         "major"
       ],
+      "labels": ["major"],
       "groupName": "azurerm major",
-      "groupSlug": "azurerm-major"
+      "groupSlug": "azurerm-major",
+      "additionalBranchPrefix": "{{datasource}}-"
     }
   ]
 }
