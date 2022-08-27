@@ -3,7 +3,6 @@
   "extends": [
     ":dependencyDashboard"
   ],
-  "enabled": false,
   "labels": ["renovate"],
   "packageRules": [
     {
@@ -13,7 +12,8 @@
       ],
       "addLabels": ["major"],
       "groupName": "azurerm major",
-      "groupSlug": "azurerm"
+      "groupSlug": "azurerm",
+      "commitMessageSuffix": "(major)"
     }
   ]
 }
